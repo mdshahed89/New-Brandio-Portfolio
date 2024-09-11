@@ -96,16 +96,16 @@ const Header = () => {
             <HiBars2 onClick={handleMenuBtn} className='block md:hidden cursor-pointer' />
           </div>
         </div>
-        <div className={`fixed px-5 w-full h-[20rem] top-0 bg-black text-[#a9a8a8] z-30 transition-all duration-500 ${searchBox}`}>
+        {/* <div className={`fixed px-5 w-full h-[20rem] top-0 bg-black text-[#a9a8a8] z-30 transition-all duration-500 ${searchBox}`}>
           <div className='flex pl-[10%] md:pl-[20%] gap-2 items-center px-2 text-2xl pt-[6rem]'>
             <IoMdSearch className='text-xl  ' />
             <input type="text" placeholder='Search Brandioabm.com' className='bg-transparent text-[1.2rem] placeholder-[#8a8a8a] outline-none border-none' />
           </div>
-        </div>
+        </div> */}
       </div>
 
 
-      <div className={`bg-[rgba(0,0,0,0.8)] ${searchBox === "ssBox" ? "bg-[black]" : null} flex md:hidden fixed z-50 w-full h-[75px]  items-center justify-between gap-14 box-border transition-all duration-300 header px-5`}>
+      <div className={`bg-[rgba(0,0,0,0.8)] ${searchBox === "ssBox" ? "bg-[black]" : null} flex md:hidden left-0 px-5 fixed z-50 w-full h-[75px]  items-center justify-between box-border transition-all duration-300 header`}>
         <div className='flex justify-center   bottom-[-5rem]'>
           <Link href={"/"}><Image src={Logo} alt="" className='w-[6rem] h-full object-cover' /></Link>
         </div>

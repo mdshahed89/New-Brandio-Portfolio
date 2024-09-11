@@ -5,15 +5,15 @@ import Image from 'next/image'
 function Hcontact() {
   return (
     <div>
-        <div className=' w-full h-[40rem] relative  '>
+        <div className=' w-full h-[50rem] md:h-[40rem] relative  '>
             <Image src={HcontactImg} className=' w-full h-full object-cover '/>
             <div className=' absolute top-0 left-0 w-full h-full flex items-center justify-center '>
-                <div className=' max-w-[1100px] w-full mx-auto flex items-center justify-center '>
-                <div className=' w-[50%] text-left   '>
+                <div className=' max-w-[1100px] px-3 w-full mx-auto flex items-center justify-center md:flex-row flex-col '>
+                <div className=' w-full md:py-0 py-10 md:mt-0 mt-10 md:w-[50%] text-left   '>
                   <h3 className='  text-[3rem] leading-tight font-semibold' >Have a Project </h3>
                   <h3 className='  text-[3rem] leading-tight font-semibold' >Idea? </h3>
                 </div>
-                <div className=' w-[50%] bg-[#fff] px-[5%] pt-[7%] pb-[3%] rounded-2xl flex flex-col gap-4 '>
+                <div className=' w-full md:w-[50%] bg-[#fff] px-[5%] pt-[7%] pb-[3%] rounded-2xl flex flex-col gap-4 '>
                   <div className=' flex flex-col  gap-1 '>
                     <label className=' font-semibold ' htmlFor="">Full Name</label>
                     <input className=' outline-none w-full py-1 border-b border-[#000] ' type="text" placeholder='Ex. James Copper' />

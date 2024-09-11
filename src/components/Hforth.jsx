@@ -4,9 +4,9 @@ function Hforth() {
   return (
     <div className=" bg-[#FCFDFF]  py-10 ">
       <div className=" max-w-[1300px] mx-auto text-center ">
-      <h2 className=" text-[2rem] font-semibold leading-tight text-[#1B1714] ">Elevating Branding, Empowering</h2>
-      <h2 className=" text-[2rem] font-semibold leading-tight text-[#FFD200] ">Businesses, Redefining</h2>
-      <h2 className=" text-[2rem] font-semibold leading-tight text-[#C9010B] ">Experiences...</h2>
+      <h2 className=" text-[1.5rem] sm:text-[1.7rem] md:text-[2rem] font-semibold leading-tight text-[#1B1714] ">Elevating Branding, Empowering</h2>
+      <h2 className=" text-[1.5rem] sm:text-[1.7rem] md:text-[2rem] font-semibold leading-tight text-[#FFD200] ">Businesses, Redefining</h2>
+      <h2 className=" text-[1.5rem] sm:text-[1.7rem] md:text-[2rem] font-semibold leading-tight text-[#C9010B] ">Experiences...</h2>
       <div className=" max-w-[40rem] text-sm mx-auto mt-7 ">
         <p>
           Welcome to Brandio : Where Branding Dreams Soar! As your dedicated

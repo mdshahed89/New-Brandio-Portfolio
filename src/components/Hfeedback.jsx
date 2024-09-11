@@ -12,7 +12,7 @@ function Hfeedback() {
       {/* Scrollable Cards */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-full overflow-x-auto flex space-x-4 px-4 py-6 scrollbar-hide">
-          <div className="flex gap-7 mx-[25%]  flex-nowrap">
+          <div className="flex gap-7 md:mx-[25%]  flex-nowrap">
             <HfeedbackCard className="shrink-0 w-64" />
             <HfeedbackCard className="shrink-0 w-64" />
             <HfeedbackCard className="shrink-0 w-64" />

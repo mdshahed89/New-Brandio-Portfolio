@@ -28,7 +28,7 @@ const Partner = () => {
             {/* </Fade> */}
         </div>
 
-        <div className='grid grid-cols-2 mt-[1rem] mb-[3rem] md:grid-cols-8 place-items-center gap-7 md:gap-5 '>
+        <div className='grid grid-cols-4 md:grid-cols-8 mt-[1rem] mb-[3rem]  place-items-center gap-7 md:gap-5 '>
             <div className='mt-6'>
                 <Image src={Partner1} alt="" className=' w-[80%] md:w-full' />
             </div>

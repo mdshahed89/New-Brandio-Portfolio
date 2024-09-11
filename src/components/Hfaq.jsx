@@ -58,7 +58,7 @@ export default function Hfaq() {
           >
             <button
               onClick={() => toggle(idx)}
-              className="flex h-full w-full items-center justify-between font-medium text-white outline-none"
+              className="flex h-full w-full items-center justify-between md:py-0 py-7 font-medium text-white outline-none"
             >
               <div className=" flex items-center gap-4 ">
                 <p
@@ -68,9 +68,9 @@ export default function Hfaq() {
                 >
                   0{idx + 1}
                 </p>
-                <span className={` ${isOpen === idx ? "text-[#fff]" : "text-[#7D7D82]"} text-[1.6rem] font-semibold transition-colors duration-700 ease-in-out `}>{PerAccordion.title}</span>
+                <span className={` ${isOpen === idx ? "text-[#fff]" : "text-[#7D7D82]"} text-[1.4rem] sm:text-[1.6rem] font-semibold transition-colors duration-700 ease-in-out `}>{PerAccordion.title}</span>
               </div>
-              <div>
+              <div className=" md:block hidden ">
                 <Image
                   src={FaqImg1}
                   className={`  transition-transform duration-300 transform ${
@@ -87,7 +87,7 @@ export default function Hfaq() {
                   : "max-h-0 opacity-0"
               }`}
             >
-              <div className=" max-w-[40rem] pr-4 text-sm">
+              <div className=" max-w-[30rem] lg:max-w-[40rem] pr-4 text-sm">
                 {PerAccordion.description}
               </div>
               <button className=" text-[#000] bg-[#FFD200] w-36 font-semibold py-2 rounded-full ">
